@@ -1,0 +1,292 @@
+/*   
+Theme Name: theme
+Theme URI: 
+Description: This is an exclusive, fully SEO optimized Wordpress theme.
+Author: 
+Author URI: 
+*/
+
+/*
+/************************************************************************/
+/******** Font family used across the website as per checklist *********/
+/************************************************************************/
+
+body,html{
+    height: 100%
+}
+body {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.75;
+    overflow-x: hidden;
+    position: relative;
+    color: #000000;
+}
+
+.section-pd, .common-padding {
+    padding: 80px 0;
+}
+
+/*** default placeholder ***/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #636363;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #636363;
+}
+::-ms-input-placeholder { /* IE 10+ */
+    color: #636363;
+}
+::-moz-placeholder { /* Firefox 18- */
+    color: #636363;
+}
+
+.wpa::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.wpa::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.wpa::-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.wpa::-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+/*** default placeholder End***/
+body, html{height: 100%;}
+* {margin:0;padding:0;}
+img {max-width: 100%;height: auto;}
+.hide{display: none;}
+:focus{outline: 0;outline: none;}
+
+a {
+    color: #2b357a;
+}
+
+p:last-child{
+    margin-bottom: 0
+}
+p:first-child {
+    margin-bottom: 1rem;
+}
+a:focus { 
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+a, .btn, input, select, textarea, button, img{
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+
+}
+
+select{
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 0 #000;
+}
+
+a img{
+    outline: 0;
+}
+
+input, select, textarea{
+    outline: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+}
+
+[type=submit]{
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+p:empty {
+    display: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+
+h1, .h1 {
+    font-size: 40px; 
+}
+
+h2, .h2 {
+    font-size: 38px;
+}
+
+h3, .h3 {
+    font-size: 35px;
+}
+
+h4, .h4 {
+    font-size: 30px;
+}
+
+h5, .h5 {
+    font-size: 25px;
+}
+
+h6, .h6 {
+    font-size: 20px;
+}
+
+
+/* nav top menu css */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.form-control, .form-control:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dadada;
+    border-radius: 0;
+    box-shadow: none;
+    padding: .4rem 0rem;
+    font-size: 0.9rem;
+    height: 50px;
+}
+
+textarea {
+    resize: none;
+    height: 7rem !important;
+}
+
+[type=submit], [type=submit]:focus {
+    cursor: pointer;
+    box-shadow: none; 
+} 
+
+
+div#html5-close {
+    background-image: url(img/lightbox-close.png);
+    background-size: auto;
+    width: 31px;
+    height: 34px;
+    background-repeat: no-repeat;
+}
+
+div#html5-close img {
+    display: none;
+}
+.list-style ul li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.list-style ul {
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+.list-style ol {
+    padding-left: 15px;
+}
+.list-style ul li:after {content: '';position: absolute;width: 6px;height: 6px;top: 12px;left: 0;border-radius: 50%;}
+
+/**********Contact FOrm Default Css***********/
+.wpcf7 form.sent .wpcf7-response-output {
+    background: #fff;
+    color: green;
+    border: 1px solid green !important;
+}
+
+/************Inner Banner***********/
+.inner-banner {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.inner-banner .banner-title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-top: 110px;
+    text-shadow: 1px 2px #000;
+    
+}
+
+/*******************Slick COmmon Css************************/
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 20px;
+    padding: 0; 
+    cursor: pointer;
+}
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #d8d8d8;
+    border-radius: 50%;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button {
+    background: #b9a066;
+}
+/*******************Slick Common Css************************/
